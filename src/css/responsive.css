@@ -1,0 +1,124 @@
+@media (max-width: 1168px) {
+    body {
+      background-image: url(../images/PvZ_Heroes_mobile_website_background.webp); /* Imagem diferente para telas pequenas */
+    }
+
+    .back-intro {
+        content: url(../images/PvZ_Heroes_mobile_website_background.webp);
+    }
+}
+
+@media (max-width: 355px){
+    
+    .logo.I {
+        position: relative;
+        left: 0px;
+        top: -70px;
+        height: 120px;
+    }
+    .iniciar {
+        position: relative;
+        left: 0px;
+        top: -10px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 356px) and (max-width: 480px) {
+    .logo.I {
+        position: relative;
+        left: 0px;
+        top: -70px;
+    }
+    .iniciar {
+        position: relative;
+        left: 0px;
+        top: -10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 770px) {
+    .logo.I {
+        position: relative;
+        left: 20px;
+        top: -70px;
+    }
+    .iniciar {
+        position: relative;
+        left: 20px;
+        top: -10px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1214px) {
+    .logo.I {
+        position: relative;
+        left: 20px;
+        top: -70px;
+    }
+    .iniciar {
+        position: relative;
+        left: 20px;
+        top: -10px;
+    }
+}
+
+@media (min-width: 1215px) and (max-width: 1326px) {
+    .logo.I {
+        position: relative;
+        left: 20px;
+        top: -95px;
+    }
+    .iniciar {
+        position: relative;
+        left: 20px;
+        top: 0px;
+    }
+}
+
+@media (max-width: 564px){
+    .btn-avancarP{
+        margin-left: 150px;
+        position: absolute;
+        bottom: 2%;
+    }
+    .btn-voltarP{
+        margin-right: 150px;
+        position: absolute;
+        bottom: 2%;
+    }
+    .cabecalho .plant-button{
+        height: 50px;
+    }
+    .cabecalho .zombie-button{
+        height: 45px;
+        margin-left: 15px;
+    }
+    .playlist-image{
+        height: 40px;
+    }
+    .icon-exc{
+        flex-direction: column; /* Alinha os itens na vertical */
+        justify-content: center; /* Centraliza os ícones */
+    }
+    .hitbx{
+        margin-top: -570px;
+        max-width: 59px;
+        height: 268px;
+        position: relative;
+        left: 220px; /* Move 50px para a esquerda */
+    }
+    .Button-hit{
+        position: absolute;
+        bottom: 1%;
+    }
+    #btn-voltarZ{
+        margin-right: 200px;
+    }
+    #btn-avancarZ{
+        margin-left: 200px;
+    }
+    .cartaoTwo{
+    margin-top: 100px;
+    }
+}

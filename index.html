@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards-Pvz-Heroes</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/images/icon-plant.png" alt="" class="plant-button"> 
+        <img src="./src/images/PvZ_Heroes_logo.webp" alt="" class="logo">
+        <img src="./src/images/icon-zombie1.png" alt="" class="zombie-button">
+    </header>
+
+    <div class="Intro">
+      <div class="Hit">
+      <img src="./src/images/PvZ_Heroes_logo.webp" alt="" class="logo I">
+      <button class="iniciar">Iniciar</button>
+      </div>
+      <img src="./src/images/intro-background.png" alt="" class="back-intro">
+    
+      <button class="button"><span>Skip</span></button>
+      <video playsinline class="Trailer">
+        <source src="./src/video/Trailer_de_pvz_heroes.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="Loading">
+      <div class="hit-loa">
+      <img src="./src/images/Loading_Hero_Marigold.webp" alt="" class="img-loading">
+      <p class="loading">Loading</p>
+      </div>
+      <img src="./src/images/black.png" alt="" class="black">
+    </div>
+
+    <div class="container">
+  
+      <!-- Imagem da playlist -->
+      <div class="playlist">
+        <img src="./src/images/playlist-icon.png" alt="Playlist" class="playlist-image">
+        
+        <img src="./src/images/music-on.png" alt="" class="song-image">
+
+  
+        <!-- Lista de músicas (escondida inicialmente) -->
+        <ul class="songs">
+          <li>
+            <audio src="./src/audio/menu-PNF.mpeg"></audio>
+            <img src="./src/images/icon-music7.png" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne" data-text="Menu Plants Night funkin ost">Menu Plants Night funkin ost</span>
+            </div>
+            <p class="div a">BRUHMYNAMEIS DYLAN</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/pvz-heroes.mpeg"></audio>
+            <img src="./src/images/icon-music1.png" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne a" data-text="PVZ Heroes Music: Tutorial (Grasswalk)">PVZ Heroes Music: Tutorial (Grasswalk)</span>
+            </div>
+            <p class="div">Popcap</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/pvz-russo.mpeg"></audio>
+            <img src="./src/images/icon-music2.png" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span> FLOWERS FOR YOU </span>
+            </div>
+            <p>JF Voice</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/pvz-phonk.mpeg"></audio>
+            <img src="./src/images/icon-music3.png" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne b" data-text="Plants vs Zombies Phonk(Ultimate Battle)">Plants vs Zombies Phonk(Ultimate Battle)</span>
+            </div>
+            <p>Jair73</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/8-bit.mpeg"></audio>
+            <img src="./src/images/icon-music4.png" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne c" data-text="Plants Vs. Zombies - Cerebrawl [8 Bit - Chiptune Remix]">Plants Vs. Zombies - Cerebrawl [8 Bit - Chiptune Remix]</span>
+            </div>
+            <p>8 Bit Planet</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/pvz-rock.mpeg"></audio>
+            <img src="./src/images/icon-music5.png" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne d" data-text="Brainiac Maniac (From Plants vs. Zombies)">Brainiac Maniac (From "Plants vs. Zombies")</span>
+            </div>
+            <p>GaMetal</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/Rap-Dave.mpeg"></audio>
+            <img src="./src/images/Crazy_dave-rap.jpeg" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne e" data-text="Wabby Wabbo (Plants vs. Zombies)">Wabby Wabbo (Plants vs. Zombies)</span>
+            </div>
+            <p>Popcap</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/pvz-gw garden.mpeg"></audio>
+            <img src="./src/images/garden-warfare_2.jpeg" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne f" data-text="Garden Shuffle (Plants vs. Zombies Garden Warfare)">Garden Shuffle (Plants vs. Zombies Garden Warfare)</span>
+            </div>
+            <p>Popcap</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/Main-Theme pvz gw.mpeg"></audio>
+            <img src="./src/images/garden-warfare_1.jpeg" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne g" data-text="Main Theme (Plants vs. Zombies Garden Warfare)">Main Theme (Plants vs. Zombies Garden Warfare)</span>
+            </div>
+            <p>Popcap</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+          <li>
+            <audio src="./src/audio/The zombies in your lawn.mpeg"></audio>
+            <img src="./src/images/Pvz-classic.jpeg" alt="" class="img-music">
+            <div>
+              <div class="scroll-container">
+            <span class="textOne h" data-text="Zombies on Your Lawn (Plants vs. Zombies)">Zombies on Your Lawn (Plants vs. Zombies)</span>
+            </div>
+            <p>Laura shigihara</p>
+            </div>
+            <img src="./src/images/play-icon.png" alt="" class="img-music play">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main class="slider oneS">
+
+      <button id="btn-voltarP" class="btn-seta btn-voltarP selec">
+        <img src="src/images/Seta-Voltar.png" alt="seta voltar"/>
+      </button>
+
+        <ul class="lista-personagens">
+          <li class="cartao fundo-1 selecionado">
+            
+              <div class="cartao-verso carta-virada"></div>
+    
+              <h2 class="nome" style="color: rgb(255, 115, 0);">Solar Fire</h2>
+    
+              <div class="nivel-carta">
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+              </div>
+    
+                      <!-- Div para a imagem com fundo -->
+        <div class="imagem-carta" >
+          <img src="./src/images/Gramess.png" alt="" class="Gramess">
+          <img
+              src="src/images/Solar-fire_img.png"
+              alt="Imagem do personagem"
+              class="sprite"
+          />
+        </div>
+    
+              <div class="informacoes">
+                <p class="descricao">
+                    Solar fire nunca encontrou um bloqueador solar forte o bastante para detê-la.
+                </p>
+                <div class="hit-lengendary plants">
+                  <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                  </div>
+                <div class="informacoes-ataque">
+                  <span>ATK/ 6700</span>
+                  <span>DEF/ 4500</span>
+              </div>
+              <div class="hit-icon">
+                <img src="./src/images/icon-power6.png" alt="" class="Icon-power">
+                <img src="./src/images/icon-power9.png" alt="" class="Icon-power">
+              </div>
+            </div>
+        </li>
+    
+            <li class="cartao fundo-2">
+              <div class="carta-virada"></div>
+  
+              <h2 class="nome Green" style="color: green;">Green Shadow</h2>
+    
+              <div class="nivel-carta">
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+                <span class="Sol"></span>
+              </div>
+    
+              <div class="imagem-carta" >
+                <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                <img
+                    src="src/images/GreenShadow1_3x.gif"
+                    alt="Imagem do personagem"
+                    class="sprite GreenShadow"
+                />
+            </div>
+    
+              <div class="informacoes">
+                <p class="descricao">
+                    Fato pouco conhecido: quando ela tira a capa e a máscara, ela é chamada de Penelopea.
+                </p>
+                <div class="hit-lengendary plants">
+                  <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                  </div>
+                <div class="informacoes-ataque">
+                  <span>ATK/ 6600</span>
+                  <span>DEF/ 5000</span>
+                </div>
+                <div class="hit-icon">
+                  <img src="./src/images/icon-power8.png" alt="" class="Icon-power">
+                  <img src="./src/images/icon-power7.png" alt="" class="Icon-power">
+                </div>
+              </div>
+            </li>
+    
+            <li class="cartao fundo-3">
+                <div class="carta-virada"></div>
+                <h2 class="nome Green" style="color: rgb(6, 187, 6);">Grass Knuckles</h2>
+                <div class="nivel-carta">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/Grass-Knuckles_sprite.png"
+                      alt="Imagem do personagem"
+                      class="sprite"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao">
+                    Ele é o melhor no que faz... e o que ele faz é socar!
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 6600</span>
+                    <span>DEF/ 5400</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power8.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power10.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-4">
+                <div class="carta-virada"></div>
+                <h2 class="nome" style="color: blueviolet;">NightCap</h2>
+                <div class="nivel-carta">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/Nighcap-sprite.png"
+                      alt="Imagem do personagem"
+                      class="sprite"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao">
+                    Cuidado! Nightcap quer um nocaute rápido. Ele gosta de 
+                    batalhas rápidas e agressivas. E quando se trata de cogumelos, 
+                    quanto mais, mais malvado, ele acredita.
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 7000</span>
+                    <span>DEF/ 6000</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power7.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power9.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-5">
+                <div class="carta-virada"></div>
+                <h2 class="nome" style="color: red;">Rose</h2>
+                <div class="nivel-carta cinco">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+        
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/Rose-sprite.png"
+                      alt="Imagem do personagem"
+                      class="sprite Rose"
+                  />
+              </div>
+
+
+                <div class="informacoes">
+                  <p class="descricao Rosa">
+                    Ah sim, essa Planta é um espinho no pé de todo Zumbi! 
+                    Rose simplesmente adora estar no controle da batalha. 
+                    Ela protegerá seus companheiros de equipe congelando e 
+                    quicando seus Zumbis... e transformando-os em Cabras. 
+                    Então, sorte de cabra! Quer dizer, BOA sorte.
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Super-rare-png.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 5000</span>
+                    <span>DEF/ 3900</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power6.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power7.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-6">
+                <div class="carta-virada"></div>
+                <h2 class="nome Wall" style="color: rgb(0, 4, 255);">Wall Knight</h2>
+                <div class="nivel-carta cinco">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/WallHD.webp"
+                      alt="Imagem do personagem"
+                      class="sprite WallNight"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao">
+                    Ele é um cara tranquilo, mas às vezes tem dificuldade de sair da concha.
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Super-rare-png.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 3000</span>
+                    <span>DEF/ 7500</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power6.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power10.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-7">
+                <div class="carta-virada"></div>
+                <h2 class="nome" style="color: orange;">Citron</h2>
+                <div class="nivel-carta">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/CitronBYL.webp"
+                      alt="Imagem do personagem"
+                      class="sprite Citron"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao Rosa">
+                    Um aviso! Este caçador de recompensas laranja do futuro gosta de suas batalhas defensivas e agressivas. Citron é conhecido por colocar paredes de Wall-Nuts e então disparar artilharia pesada por trás delas. Chegando!
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 6700</span>
+                    <span>DEF/ 5500</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power10.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power7.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-8">
+                <div class="carta-virada"></div>
+                <h2 class="nome Green" style="color: orangered;">Beta Carrotina</h2>
+                <div class="nivel-carta seis">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/betacarrot-plants-vs-zombies-heroes-removebg-preview.png"
+                      alt="Imagem do personagem"
+                      class="sprite BetaCarrotina"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao">
+                    Como líder da Guarda Plantetária, ela está pronta para erradicar os zumbis onde quer que eles apareçam.
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 6000</span>
+                    <span>DEF/ 5800</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power10.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power7.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-9">
+                <div class="carta-virada"></div>
+                <h2 class="nome" style="color: rgb(247, 178, 32);">Spudow</h2>
+                <div class="nivel-carta seis">
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                  <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/spudow-png.webp"
+                      alt="Imagem do personagem"
+                      class="sprite Spudow"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao Rosa">
+                    O mais poderoso dos spuds é Spudow. Mas deixe-me oferecer algumas dicas... Ele defenderá até o momento certo para atacar, e ele ama o jogo longo. Então, faça um trabalho rápido com ele!
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 5800</span>
+                    <span>DEF/ 4200</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power10.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power9.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+              <li class="cartao fundo-10">
+                <div class="carta-virada"></div>
+                <h2 class="nome Green" style="color: brown;">Captain Combustible</h2>
+                <div class="nivel-carta">
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/Captain_Combustible.webp"
+                      alt="Imagem do personagem"
+                      class="sprite Captain_Combustible"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao">
+                    O lema do Capitão Combustível é "Poder para os Peashooters!" Ele e seus companheiros de Torchwood levam esse lema a sério. Sério DEMAIS.
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 6300</span>
+                    <span>DEF/ 6400</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power8.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power9.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+               <li class="cartao fundo-11">
+                <div class="carta-virada"></div>
+                <h2 class="nome Wall" style="color: violet;">Chompzilla</h2>
+                <div class="nivel-carta seis">
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                    <span class="Sol"></span>
+                </div>
+                <div class="imagem-carta" >
+                  <img src="./src/images/Gramess.png" alt="" class="Gramess">
+                  <img
+                      src="src/images/Chompzilla-Sprite.png"
+                      alt="Imagem do personagem"
+                      class="sprite"
+                  />
+              </div>
+                <div class="informacoes">
+                  <p class="descricao">
+                    Ela usa fio dental após cada refeição e, ainda assim, o hálito de zumbi é um problema real.
+                  </p>
+                  <div class="hit-lengendary plants">
+                    <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+                    </div>
+                  <div class="informacoes-ataque">
+                    <span>ATK/ 6900</span>
+                    <span>DEF/ 4050</span>
+                  </div>
+                  <div class="hit-icon">
+                    <img src="./src/images/icon-power6.png" alt="" class="Icon-power">
+                    <img src="./src/images/icon-power8.png" alt="" class="Icon-power">
+                  </div>
+                </div>
+              </li>
+          </ul>
+          
+          
+            <button id="btn-avancarP" class="btn-seta btn-avancarP selec">
+              <img src="src/images/Seta-Avançar.png" alt="seta avançar"/>
+            </button>
+      
+    </main>
+
+    <main class="slider twoS">
+
+      <div class="Button-hit">
+      <button class="btn-seta btn-avancar" id="btn-voltarZ">
+        <img src="src/images/seta-zombie.png" alt="seta avançar" />
+      </button>
+      </div>
+
+      <ul class="lista-personagens">
+          <li class="cartaoTwo fundo-1">
+            <div class="carta-virada"></div>
+  
+            <h2 class="nome z" style="color: white;">Super Brainz</h2>
+
+            <div class="power-icon">
+              <img src="./src/images/icon-power2.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power5.png" alt="" class="power-iconZ two">
+            </div>
+  
+            <div class="nivel-cartaZ">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+                    <!-- Div para a imagem com fundo -->
+      <div class="imagem-carta" >
+        <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+        <div class="Hit-Sprite">
+        <img
+            src="src/images/Super-brainz_sprite.png"
+            alt="Imagem do personagem"
+            class="sprite Z"
+        />
+        </div>
+        <div class="informacoes-ataque Z">
+          <div class="information one">
+          <img src="./src/images/icon-power9.png" alt="ataque" class="Atk" title="Ataque">
+          <p>: 6000</p>
+          </div>
+          <div class="information">
+          <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+          <p>: 5000</p>
+          </div>
+        </div>
+        <div class="des-heroi">
+          <p>"Sua qualidade mais heroica é seu penteado."</p>
+        </div>
+    </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                É um pássaro? É um avião? Não! é um... 
+                Zumbi voador? O Super Brainz tentará 
+                encontrar um jeito de contornar suas 
+                Plantas para poder atacar diretamente 
+                seu Herói. Não tão super-duper!
+              </p>
+              <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+            </div>
+          </li>
+  
+          <li class="cartaoTwo fundo-2">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome m" style="color: white;">Z-Mech</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power4.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power3.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ six">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/Z-Tech_sprite.png"
+                  alt="Imagem do personagem"
+                  class="sprite M"
+              />
+
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="ataque" class="Atk" title="Ataque">
+                <p>: 4000</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 6000</p>
+                </div>
+              </div>
+              <div class="des-heroi Z">
+                <p>"Uma vez assisti anime de mecha gigante por 12 horas seguidas."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Z-mech à frente! E isso significa mísseis chegando! Este herói zumbi também gosta de colocar zumbis esportivos em jogo. Quanto maiores eles ficarem, maior será a pontuação dele!              
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+          </li>
+  
+          <li class="cartaoTwo fundo-3">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome n" style="color: white;">Neptuna</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power4.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power5.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ five">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/Neptuna_sprite.png"
+                  alt="Imagem do personagem"
+                  class="sprite N"
+              />
+
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="ataque" class="Atk" title="Ataque">
+                <p>: 4000</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 3500</p>
+                </div>
+              </div>
+              <div class="des-heroi">
+                <p>"Ela é a primeira zumbi a lutar em um tanque."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Parte sereia, parte zumbi, Neptuna é uma lata de problemas. Esta inimiga peixosa prospera na água e mantém os Imps prontos. E ela tentará obter uma vantagem inicial se puder!              
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Super-rare-png.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-4">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome i" style="color: white;">Immorticia</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power2.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ six">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              <div class="hit-sprite">
+              <img
+                  src="src/images/Zombie_Bruxa_sprite.png"
+                  alt="Imagem do personagem"
+                  class="sprite I"
+              />
+              </div>
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="ataque" class="Atk" title="Ataque">
+                <p>: 5500</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 4000</p>
+                </div>
+              </div>
+              <div class="des-heroi I">
+                <p>"Sim, ela é uma Zumbi E uma bruxa. Ela acredita que a morte é curta demais para se limitar."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Esta heroína zumbi assustador está esperando para soltar um saco de truques em você! E cuidado com os amigos gigantescos de Immorticia. Ela usará força bruta se for preciso.              
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+           <li class="cartaoTwo fundo-5">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome z" style="color: white;">Brain Freeze</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power5.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ five">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/Zumbi-yeti_sprite.png"
+                  alt="Imagem do personagem"
+                  class="sprite Y"
+              />
+
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="ataque" class="Atk" title="Ataque">
+                <p>: 4000</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 4000</p>
+                </div>
+              </div>
+              <div class="des-heroi Y">
+                <p>"Adora sorvete, tempestades de neve e cérebros... não necessariamente nessa ordem."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Agasalhe-se! Brain Freeze vai te dar um gelo! Ele também tem um rebanho de Zombie Pets. Esses bichinhos são rápidos. Livre-se deles rápido!              
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Super-rare-png.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-6">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome i" style="color: white;">The Smash</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power4.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/Smash.png"
+                  alt="Imagem do personagem"
+                  class="sprite s"
+              />
+
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+                <p>: 5500</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 5500</p>
+                </div>
+              </div>
+              <div class="des-heroi S">
+                <p>"O Smash gosta de...ESMAGAR!"</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                O nome do Smash diz tudo. Ele gosta de destruir coisas. Principalmente plantas. Ele não se move rápido, mas bate forte. E quando seus amigos Gargantuar entram na luta, é um grande problema!              
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-7">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome i" style="color: white;">Impfinity</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power5.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power3.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ four">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              <div class="Hit-sprite">
+              <img
+                  src="src/images/imp-2.png"
+                  alt="Imagem do personagem"
+                  class="sprite i"
+              />
+                </div>
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+                <p>: 3500</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 4000</p>
+                </div>
+              </div>
+              <div class="des-heroi I">
+                <p>"Ele acredita que coisas boas vêm em embalagens pequenas. E em três."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Yabbers! É Impfinity! Aqui vai um segredo... TODOS os heróis têm um estilo de luta único! Impfinity gosta de enviar muitos companheiros de equipe pequenos para te pegar de surpresa!             
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Super-rare-png.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-8">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome m" style="color: white;">Rustbolt</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power4.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power2.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ five">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/Lata-velha.png"
+                  alt="Imagem do personagem"
+                  class="sprite R"
+              />
+
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+                <p>: 3500</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 4500</p>
+                </div>
+              </div>
+              <div class="des-heroi">
+                <p>"Ele gosta de manter os parafusos apertados e os soltos."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Você sabia que Rustbolt desenterrou sua armadura de um ferro-velho? Ainda assim, ele é um sujeito durão. Ele tentará minar a Força das suas Plantas para que você não consiga derrotar seus Zumbis superfortes!              
+            </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Super-rare-png.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-9">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome e" style="color: white;">Electric Boogaloo</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power3.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ six">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/Discoteca.png"
+                  alt="Imagem do personagem"
+                  class="sprite E"
+              />
+
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+                <p>: 5700</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 5300</p>
+                </div>
+              </div>
+              <div class="des-heroi R">
+                <p>"Dizem que a discoteca morreu, mas ele está entre os mortos."</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Electric Boogaloo tem a batida... e ele vai usá-la para dar uma surra. Cuidado quando ele colocar uma tropa de Zumbis Dançantes no campo de batalha. Eles vão tentar sapatear no seu túmulo!              
+              </p>
+              </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-10">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome p" style="color: white;">Professor Brainstorm</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power2.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power3.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ six">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              <div class="hit-Sprite">
+              <img
+                  src="src/images/Zombie-Einstein.png"
+                  alt="Imagem do personagem"
+                  class="sprite P"
+              />
+              </div>
+              <div class="informacoes-ataque Z">
+                <div class="information one">
+                <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+                <p>: 6900</p>
+                </div>
+                <div class="information">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 4000</p>
+                </div>
+              </div>
+              <div class="des-heroi">
+                <p>"Seus incontáveis anos de pesquisa revelaram que E=MCraaazy!"</p>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Tenho que admitir, o Professor Brainstorm é mais esperto que o Zumbi comum. Ele usa Zumbis da Ciência a seu favor... e Truques a seu favor.              
+              </p>
+              </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+          </li>
+
+            <li class="cartaoTwo fundo-11">
+            <div class="carta-virada"></div>
+
+            <h2 class="nome e" style="color: white;">Huge-Gigantacus</h2>
+  
+            <div class="power-icon">
+              <img src="./src/images/icon-power2.png" alt="" class="power-iconZ one">
+              <p style="color: white;">/</p>
+              <img src="./src/images/icon-power5.png" alt="" class="power-iconZ two">
+            </div>
+
+            <div class="nivel-cartaZ six">
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+              <span class="Cerebro"></span>
+            </div>
+  
+            <div class="imagem-carta" >
+              <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+              
+              <img
+                  src="src/images/imp-1.png"
+                  alt="Imagem do personagem"
+                  class="sprite H"
+              />
+              <div class="informacoes-ataque Z">
+                <div class="information on">
+                <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+                <p>: 5900</p>
+                </div>
+                <div class="information on">
+                <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+                <p>: 4500</p>
+                </div>
+              </div>
+          </div>
+  
+            <div class="informacoes">
+              <p class="descricaoZ">
+                Vá em frente, diga a ele que ele é bem pequeno. Veja o que acontece. Você não vai gostar.              
+              </p>
+              </div>
+            <div class="hit-lengendary">
+              <img src="./src/images/Lengendary-sprite.png" alt="" class="Lengendary">
+              </div>
+          </li>
+        </ul>
+
+        <div class="Button-hit">
+        <button class="btn-seta btn-voltar" id="btn-avancarZ">
+          <img src="src/images/seta-zombie.png" alt="seta voltar"  title="Seta-Voltar"/>
+        </button>
+        </div>
+  </main>
+
+  <main class="slider threeS">
+  <ul class="lista-personagens">
+  <li class="cartaoThree fundo-bonus1">
+
+    <h2 class="nome e" style="color: white;">Vampire Flower</h2>
+
+    <div class="power-icon">
+      <img src="./src/images/icone-gw2.png" alt="">
+    </div>
+
+    <div class="nivel-cartaP">
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+    </div>
+
+    <div class="imagem-carta" >
+      <img src="./src/images/icon-FV.png" alt="" class="GramessZ">
+      
+      <img
+          src="./src/images/Vampire-flower_png.png"
+          alt="Imagem do personagem"
+          class="sprite F"
+      />
+
+      <div class="informacoes-ataque Z">
+        <div class="information one">
+        <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+        <p>: 9000</p>
+        </div>
+        <div class="information">
+        <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+        <p>: 6800</p>
+        </div>
+      </div>
+      <div class="des-heroi I">
+        <p>"Ataque para converter uma parte do dano causado em saúde ganha!"</p>
+      </div>
+  </div>
+
+    <div class="informacoes">
+      <p class="descricaoZ">
+        Ser um gótico de verão exige comprometimento. Especialmente quando você é uma planta que produz sol para viver. O girassol vampiro está aqui para ganhar
+        </p>              
+    </div>
+    
+      <img src="./src/images/GalacticLegendaryH.webp" alt="" class="Glengendary">
+  </li>
+
+  <li class="cartaoFour fundo-bonus2">
+
+    <h2 class="nome m" style="color: white;">Cattail</h2>
+
+    <div class="power-icon PVZ">
+      <img src="./src/images/Pvz_logo.webp" alt="" class="power-iconP">
+      <img src="./src/images/icon-power7.png" alt="" class="power-iconP">
+    </div>
+
+    <div class="nivel-cartaP tres">
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+    </div>
+
+    <div class="imagem-carta" >
+      <img src="./src/images/icon-cattail1.png" alt="" class="GramessZ">
+      
+      <div class="informacoes-ataque Z">
+        <div class="information one">
+        <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+        <p>: 3000</p>
+        </div>
+        <div class="information">
+        <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+        <p>: 2000</p>
+        </div>
+      </div>
+      <div class="des-heroi">
+        <p>"Minha arma secreta? É meu chapeuzinho fofo!"</p>
+      </div>
+  </div>
+
+    <div class="informacoes">
+      <p class="descricaoZ">
+        "Woof!" diz Cattail. "Woof woof woof!
+        Isso te confunde? Você espera
+        que eu diga 'Miau' como um gato porque a
+        palavra 'gato' está no meu nome e eu também pareço
+        um gato? Não é assim que as coisas funcionam
+        por aqui. Eu me recuso a ser rotulado."
+        </p>
+    </div>
+    
+      <img src="./src/images/ColossalRareH.webp" alt="" class="Glengendary">
+  </li>
+
+  <li class="cartaoFive fundo-bonus1">
+
+    <h2 class="nome m" style="color: rgb(0, 168, 235);">Ice Pea</h2>
+
+    <div class="power-icon PVZ">
+      <img src="./src/images/Pvz_logo.webp" alt="" class="power-iconP">
+      <img src="./src/images/icon-power7.png" alt="" class="power-iconP">
+    </div>
+
+    <div class="nivel-cartaP dois">
+      <span class="Sol"></span>
+      <span class="Sol"></span>
+    </div>
+
+    <div class="imagem-carta" >
+      <img src="./src/images/icon-FV.png" alt="" class="GramessZ">
+      
+      <img
+          src="./src/images/icePea-gif.png"
+          alt="Imagem do personagem"
+          class="sprite IP"
+      />
+
+      <div class="informacoes-ataque Z">
+        <div class="information one">
+        <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+        <p>: 2000</p>
+        </div>
+        <div class="information">
+        <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+        <p>: 2000</p>
+        </div>
+      </div>
+      <div class="des-heroi I">
+        <p>"Aprendeu tudo o que sabe durante as Grandes Guerras de Freeze Tag de 2008."</p>
+      </div>
+  </div>
+
+    <div class="informacoes">
+      <p class="descricaoZ">
+        As pessoas costumam dizer a Snow Pea o quão "legal" ele é,
+        ou o exortam a "relaxar". Elas dizem para ele
+        "ficar gelado". Snow Pea apenas revira os
+        olhos. Ele já ouviu todas elas. 
+        </p>             
+    </div>
+    
+      <img src="./src/images/GalacticUncommonH.webp" alt="" class="Glengendary">
+  </li>
+
+  <li class="cartaoSix fundo-bonus1">
+
+    <h2 class="nome e" style="color:white">Dancing Zombie</h2>
+
+    <div class="power-icon p">
+      <img src="./src/images/Pvz_logo.webp" alt="">
+    </div>
+
+
+    <div class="nivel-cartaZ eight">
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+      <span class="Cerebro"></span>
+    </div>
+
+    <div class="imagem-carta" >
+      <img src="./src/images/icon-zombie.png" alt="" class="GramessZ">
+        <div class="Hit-Sprite">
+      <img
+          src="./src/images/Disco_Zombie_Flipped_Glasses.webp"
+          alt="Imagem do personagem"
+          class="sprite D"
+      />
+        </div>
+      <div class="informacoes-ataque Z">
+        <div class="information one">
+        <img src="./src/images/icon-power9.png" alt="" class="Atk" title="Ataque">
+        <p>: 9900</p>
+        </div>
+        <div class="information">
+        <img src="./src/images/icon-power10.png" alt="" class="Atk" title="Defesa">
+        <p>:4500</p>
+        </div>
+      </div>
+      <div class="des-heroi">
+        <p>"Disco está morto-vivo"</p>
+      </div>
+  </div>
+
+    <div class="informacoes">
+      <p class="descricaoZ">
+        O último álbum do Dancing Zombie,
+        "GrarrBRAINSarblarbl", já está
+        subindo nas paradas de sucesso.
+        OBS: Ele é a origem do Eletric Boogaloo no PvZ Heroes
+        </p>             
+    </div>
+    
+      <img src="./src/images/GalacticLegendaryH.webp" alt="" class="Glengendary">
+  </li>
+    
+  </ul>
+  </main>
+  
+  <div class="hitbx">
+  <div class="icon-exc">
+    <img src="./src/images/icon-VF1.png" alt="" class="icon-excT" id="btn-FV">
+    <img src="./src/images/icon-cattail.gif" alt="" class="icon-excT" id="Btn-Ctt">
+    <img src="./src/images/icon-icePea.png" alt="" class="icon-excT" id="Btn-IP">
+    <img src="./src/images/icone-Dancarino.png" alt="" class="icon-excT" id="Btn-D">
+  </div>
+  </div>
+
+  <video loop muted playsinlin class="video1">
+    <source src="./src/video/Video_gw2.mp4" type="video/mp4">
+</video>
+
+<video loop muted playsinline class="video2">
+  <source src="./src/video/video_pvz.mp4" type="video/mp4">
+</video>
+
+<video loop muted playsinline class="video3">
+  <source src="./src/video/Video2_pvz.mp4" type="video/mp4">
+</video>
+
+<video loop muted playsinline class="video4">
+  <source src="./src/video/video3_pvz.mp4" type="video/mp4">
+</video>
+
+  <div class="notif" id="notif">
+    <img src="./src/images/PacotePvzH-Notificacion.png" alt="" class="img-notif">
+    <p>Exclusives</p>
+    <div class="badge" id="badge">1</div>
+  </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
