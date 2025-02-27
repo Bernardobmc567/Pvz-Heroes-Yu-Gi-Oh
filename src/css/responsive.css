@@ -80,12 +80,12 @@
     .btn-avancarP{
         margin-left: 150px;
         position: absolute;
-        bottom: 2%;
+        bottom: 1%;
     }
     .btn-voltarP{
         margin-right: 150px;
         position: absolute;
-        bottom: 2%;
+        bottom: 1%;
     }
     .cabecalho .plant-button{
         height: 50px;
@@ -120,5 +120,8 @@
     }
     .cartaoTwo{
     margin-top: 100px;
+    }
+    .songs{
+        top: 54px;
     }
 }
