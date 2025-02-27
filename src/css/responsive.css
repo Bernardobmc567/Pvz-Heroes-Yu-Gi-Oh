@@ -102,24 +102,30 @@
         justify-content: center; /* Centraliza os ícones */
     }
     .hitbx{
-        margin-top: -570px;
+        margin-top: -490px;
         max-width: 59px;
         height: 268px;
         position: relative;
         left: 220px; /* Move 50px para a esquerda */
     }
-    .Button-hit{
+    .oneB{
         position: absolute;
         bottom: 1%;
-    }
-    #btn-voltarZ{
         margin-right: 200px;
     }
-    #btn-avancarZ{
+    .twoB{
+        position: absolute;
+        bottom: 1%;
         margin-left: 200px;
     }
+    #btn-voltarZ{
+        
+    }
+    #btn-avancarZ{
+        
+    }
     .cartaoTwo{
-    margin-top: 100px;
+        margin-top: 100px;
     }
     .songs{
         top: 54px;
